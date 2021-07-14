@@ -18,12 +18,15 @@ body {
   margin: 73px;
 }
 .top-design-text-left a {
-  padding: 10px 20px;
-  background-color: #e02c6d;
-  color: white;
-  text-decoration: none;
-  margin-left: 73px;
-  transition: all 1s ease-in-out;
+padding: 10px 20px;
+    background-color: #e02c6d;
+    color: white;
+    text-decoration: none;
+    transition: all 1s ease-in-out;
+    width: 88px;
+    height: 24px;
+    left: 24px;
+    top: 10px;
 }
 .top-design-text-left a:hover {
   padding: 10px 30px;
