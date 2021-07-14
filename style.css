@@ -314,14 +314,13 @@ media query for mobile device
     flex-direction: column;
     align-items: center;
   }
-  .watch-now-right img {
+.watch-now-right img {
     /* width: 488px; */
     /* height: 343px; */
-    /* position: absolute; */
     width: 328px;
     height: 248px;
     left: 16px;
-    top: 7082px;}
+    top: 7082px;
 }
 @media only screen and (max-width: 320px) {
   .top-left-right-container {
