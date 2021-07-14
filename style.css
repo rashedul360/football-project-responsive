@@ -177,6 +177,85 @@ p {
 .search {
   margin-top: 20px;
 }
+
+/* table */
+
+.table-div table {
+  margin: 30px auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+th {
+  background-color: #aaa;
+  color: #fff;
+  transition: all 1s ease-in-out;
+}
+th:hover {
+  background-color: #6c63ff;
+  border-radius: 20px;
+  color: #ddd;
+}
+
+.table-heading {
+  text-align: center;
+  text-decoration: none;
+  color: #6c63ff;
+  margin: 30px;
+  display: block;
+  transition: all 1s ease-in-out;
+}
+.table-heading:hover {
+  background-color: #6c63ff;
+  border-radius: 20px;
+  color: #ddd;
+}
+.tr-top {
+  text-align: center;
+}
+
+.tr-top td {
+  color: black;
+}
+.tr-top:hover td {
+  color: white;
+}
+
+.middle-tr {
+  text-align: center;
+}
+
+table .column {
+  border-bottom: 1px solid #ffffff;
+}
+
+.tr-top:hover {
+  background-color: #e02c6d;
+  color: white;
+}
+
+.middle-tr:hover {
+  background-color: #ff7b21;
+  color: white;
+}
+
+.bottom-re:hover td {
+  color: #000000;
+}
+/* bottom tr */
+.bottom-rer td {
+  color: #ddd;
+}
+.bottom-re:hover {
+  background-color: #6c63ff;
+}
+.bottom-re:hover td {
+  color: #ddd;
+}
 /* footer  */
 
 /* ----------------------------- 
