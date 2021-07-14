@@ -4,6 +4,11 @@ body {
   font-family: "Poppins", sans-serif;
   /* background-color: #ddd; */
 }
+/* main tag design */
+main{
+overflow:hidden;
+}
+/* main tag design ended */
 /* main top part with some animation */
 .top-left-right-container {
   background: #2d25a0;
