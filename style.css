@@ -22,12 +22,22 @@ body {
   color: white;
   text-decoration: none;
   margin-left: 73px;
+  transition: all 1s ease-in-out;
+}
+.top-design-text-left a:hover {
+  padding: 10px 30px;
+  border-radius: 10px;
 }
 .top-design-photo-rigth img {
   margin-left: 20px;
   width: 556.01px;
   height: 438px;
   padding: 70px;
+  transition: transform 1s;
+}
+
+.top-design-photo-rigth img:hover {
+  transform: scale(1.1);
 }
 
 /* blog style start */
