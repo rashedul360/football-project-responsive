@@ -4,6 +4,7 @@ body {
   font-family: "Poppins", sans-serif;
   /* background-color: #ddd; */
 }
+/* main top part with some animation */
 .top-left-right-container {
   background: #2d25a0;
   display: flex;
@@ -39,7 +40,7 @@ body {
 .top-design-photo-rigth img:hover {
   transform: scale(1.1);
 }
-
+/* main top part with some animation ended */
 /* blog style start */
 .blog-container {
   display: flex;
@@ -110,35 +111,12 @@ p {
 }
 
 /* blog style ended */
-/* footer */
-.footer {
-  margin-top: 200px;
-}
-.footer img {
-  width: 262px;
-  display: block;
-  margin: 0 auto;
-}
-.footer div {
-  text-align: center;
-  /* padding: 5px; */
-  margin: 20px;
-  margin-left: 64px;
-}
-.fa-instagram,
-.fa-futbol,
-.fa-twitter,
-.fa-youtube {
-  padding: 10px;
-  border-radius: 50px;
-  background-color: #aaa;
-}
-#copyrigth {
-  text-align: center;
-}
+
 .match-img {
   width: 100%;
 }
+
+/* search filter style */
 .search-match-cotainer {
   display: flex;
   justify-content: center;
@@ -148,6 +126,10 @@ p {
 .search-match-img img {
   width: 488px;
   height: 343px;
+}
+
+.search-match-details {
+  padding: 36px;
 }
 .search-match-details h2 {
   text-align: center;
@@ -159,9 +141,6 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-}
-.search-match-details {
-  padding: 36px;
 }
 .search-match-details a {
   padding: 10px 196px;
@@ -177,8 +156,9 @@ p {
 .search {
   margin-top: 20px;
 }
+/* search filter style ended */
 
-/* table */
+/* table style start*/
 
 .table-div table {
   margin: 30px auto;
@@ -255,6 +235,34 @@ table .column {
 }
 .bottom-re:hover td {
   color: #ddd;
+}
+/* bottom tr */
+/* table style ended  */
+/* footer */
+.footer {
+  margin-top: 200px;
+}
+.footer img {
+  width: 262px;
+  display: block;
+  margin: 0 auto;
+}
+.footer div {
+  text-align: center;
+  /* padding: 5px; */
+  margin: 20px;
+  margin-left: 64px;
+}
+.fa-instagram,
+.fa-futbol,
+.fa-twitter,
+.fa-youtube {
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #aaa;
+}
+#copyrigth {
+  text-align: center;
 }
 /* footer  */
 
