@@ -88,6 +88,12 @@ p {
 .why-not-center {
   margin-top: -155px;
 }
+.why-not-center a {
+  transition: border-radius 1s ease-in-out;
+}
+.why-not-center a:hover {
+  border-radius: 20px;
+}
 .watch-now-left > p {
   margin-right: 20px;
   width: 80%;
@@ -162,6 +168,11 @@ p {
   background-color: #e02c6d;
   color: white;
   text-decoration: none;
+  transition: all 1s ease-in-out;
+}
+.search-match-details a:hover {
+  background-color: #bd406d;
+  border-radius: 10px;
 }
 .search {
   margin-top: 20px;
