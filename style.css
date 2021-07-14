@@ -277,7 +277,8 @@ table .column {
 /* ----------------------------- 
 media query for mobile device
 ------------------------------ */
-@media only screen and (max-width: 480px) {
+
+@media only screen and (max-width: 668px) {
   .top-left-right-container {
     justify-content: space-around;
     flex-wrap: wrap;
@@ -290,7 +291,7 @@ media query for mobile device
     height: 248px;
     left: 16px;
     top: 7082px;
-}
+  }
   .top-design-photo-rigth img {
     width: 329px;
     height: 259.17px;
@@ -319,14 +320,17 @@ media query for mobile device
     flex-direction: column;
     align-items: center;
   }
-.watch-now-right img {
+  .watch-now-right img {
     /* width: 488px; */
     /* height: 343px; */
     width: 328px;
     height: 248px;
     left: 16px;
     top: 7082px;
+  }
 }
+
+  
 @media only screen and (max-width: 320px) {
   .top-left-right-container {
     justify-content: space-around;
